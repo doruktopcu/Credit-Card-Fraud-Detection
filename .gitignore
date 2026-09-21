@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CatBoost output
+catboost_info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw unsplit dataset (>100MB, split into part1 and part2 for GitHub)
+dataset/creditcard.csv
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
